@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blue;
+    padding: 20px;
+    font-family: Georgia, serif;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+hr{
+    border: 2px solid yellow;
+    margin-bottom: 20px;
+}
+
+.tabla{
+    width: 500px;
+    height: 290px;
+    border: 4px solid yellow;
+    background: green;
+}
+.tabla{
+    width: 500px;
+    height: 290px;
+    border: 4px solid yellow;
+    display: grid;
+    grid-template-columns: 80px 340px 80px;
+}
+
+.izquierda,
+.derecha{
+    background: lightblue;
+    border: 2px solid yellow;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.centro{
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+}
