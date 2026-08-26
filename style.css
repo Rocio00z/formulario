@@ -50,3 +50,11 @@ hr{
     border-left: 2px solid yellow;
     border-right: 2px solid yellow;
 }
+    .mi-rama{
+    margin:20px 0;
+    padding:20px;
+    border:2px solid white;
+    background:#ffffff22;
+    color:white;
+    border-radius:8px;
+}
