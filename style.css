@@ -58,3 +58,60 @@ hr{
     color:white;
     border-radius:8px;
 }
+/* FORMULARIO DE RESERVAS - ROCÍO */
+
+.reserva-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.reserva-card h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--color-salas);
+}
+
+.form-control.error {
+    border-color: #c0392b;
+}
+
+.error-message {
+    display: block;
+    min-height: 1.2rem;
+    margin-top: 0.25rem;
+    color: #c0392b;
+    font-size: 0.85rem;
+}
+
+.btn-reserva {
+    margin-top: 1rem;
+}
+
+.mensaje-reserva {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
